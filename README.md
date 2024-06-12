@@ -1,2 +1,2 @@
 # projetoLogin
- Projeto tela e acesso
+ Projeto tela de acesso

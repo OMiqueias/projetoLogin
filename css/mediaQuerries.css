@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+
+TYPICAL DEVICE BREAKPOITS (Ref: W3C).
+
+Pequenas telas: Até 600px.
+Celular: 600px à 768px.
+Tablets: 768px à 992px.
+Computadores: 992px à 1200px.
+Grandes telas: Igual ou maiores que 1200px.
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+
+    section#iLogin {
+        width: 80vw;
+    }
+
+    section#iLogin>div#iImagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#iLogin>div#iFormulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+    
+    section#iLogin{
+        width: 950px;
+    }
+
+    section#iLogin > div#iImagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#iLogin > div#iFormulario{
+        float: right;
+        width: 60%;
+    }
+}

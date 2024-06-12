@@ -54,3 +54,13 @@ section#iLogin > div#iImagem {
     display: block;
     padding: 10px;
 }
+
+div#iFormulario > h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+div#iFormulario p{
+    font-size: 0.8em;
+}

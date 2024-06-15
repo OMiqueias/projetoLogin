@@ -62,5 +62,53 @@ div#iFormulario > h1{
 }
 
 div#iFormulario p{
+    text-align: justify;
     font-size: 0.8em;
+}
+
+form > input[type=submit]{
+    height: 40px;
+    width: 100%;
+    background-color: #49A09D;
+    display: block;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > div.divCampo{
+    background-color: #5F2C82;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.divCampo > label{
+    display: none;
+}
+
+form > input[type=submit]:hover{
+    background-color: #347472;
+    cursor: pointer;
+}
+
+form > a.btnEsqueciSenha{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: block;
+    margin-top: 1%;
+    padding-top: 10px;
+    color: #49A09D;
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid #49A09D;
+    border-radius: 5px;
+}
+
+form > a.btnEsqueciSenha:hover{
+    background-color: #347472;
+    color: white;
 }

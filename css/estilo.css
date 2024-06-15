@@ -79,14 +79,33 @@ form > input[type=submit]{
 
 form > div.divCampo{
     background-color: #5F2C82;
+    border: 2px solid #5F2C82;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.divCampo > label{
     display: none;
+}
+
+div.divCampo > .material-symbols-outlined{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.divCampo > input{
+    padding: 5px;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    transform: translateY(-14px);
 }
 
 form > input[type=submit]:hover{

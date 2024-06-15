@@ -20,6 +20,7 @@ Grandes telas: Igual ou maiores que 1200px.
 
     section#iLogin {
         width: 80vw;
+        height: 280px;
     }
 
     section#iLogin > div#iImagem {
@@ -42,6 +43,7 @@ Grandes telas: Igual ou maiores que 1200px.
     
     section#iLogin{
         width: 950px;
+        height: 300px;
     }
 
     section#iLogin > div#iImagem{
